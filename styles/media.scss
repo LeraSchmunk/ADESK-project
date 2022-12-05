@@ -1,0 +1,349 @@
+        @media (max-width:1165px) {
+            .header .header__menu nav ul {
+                display: none;
+            }
+        }
+        
+        @media (max-width:1140px) {
+            .consulting .button {
+                left: 407px;
+            }
+        }
+        
+        @media (max-width:1050px) {
+            .plans__price {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width:1005px) {
+            .start .start-text {
+                max-width: 600px;
+            }
+            .consulting {
+                padding: 100px 100px;
+            }
+            .faq .answer__text p {
+                width: 800px;
+            }
+            .row-1 .footer_col-1 h3 {
+                font-size: 18px;
+            }
+        }
+        
+        @media (max-width:930px) {
+            .consulting {
+                .text {
+                    max-width: 450px;
+                }
+            }
+            .start .start-text {
+                max-width: 500px;
+            }
+            .faq .answer__text p {
+                width: 643px;
+            }
+            .footer_col-1 h3 {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width:780px) {
+            .main {
+                margin: 120px 0 200px 0;
+            }
+            .title .title__title {
+                font-size: 55px;
+            }
+            br {
+                display: none;
+            }
+            .consulting {
+                padding: 100px 54px;
+                margin-bottom: 120px;
+                .consulting__title {
+                    font-size: 45px;
+                }
+                .plans__price {
+                    margin-bottom: 120px;
+                }
+            }
+            .start {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 120px;
+                img {
+                    margin-bottom: 37px;
+                }
+                .start-text {
+                    text-align: center;
+                    max-width: 700px;
+                    padding-top: 20px;
+                }
+            }
+            .faq {
+                .faq__title {
+                    margin-bottom: 45px;
+                }
+                .answer__text p {
+                    width: 600px;
+                }
+            }
+            .footer {
+                display: none;
+            }
+            .footer-media {
+                display: block;
+                .row-1 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 25px;
+                    .footer_col-1 {
+                        width: 223px;
+                    }
+                    .social ul {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 30px;
+                    }
+                }
+                .row-2 {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    align-items: flex-start;
+                    margin-top: 50px;
+                    h4 {
+                        color: #fff;
+                    }
+                    img {
+                        width: 15px;
+                        height: 15px;
+                        transform: scale(-1, 1);
+                    }
+                }
+                .row-3 {
+                    font-size: 14px;
+                    .left p+p {
+                        margin-left: 25px;
+                    }
+                }
+            }
+            .footer-media .row-3 p:nth-child(-n+2) {
+                color: #FFF;
+            }
+        }
+        
+        @media (max-width:730px) {
+            .faq {
+                .answer__text p {
+                    width: 500px;
+                }
+            }
+        }
+        
+        @media (max-width:670px) {
+            .consulting {
+                padding: 60px 20px;
+                margin-bottom: 100px;
+                .text {
+                    max-width: 400px;
+                }
+            }
+            .main {
+                margin: 100px 0 100px 0;
+            }
+            .title {
+                margin-bottom: 50px;
+            }
+            .plans__price {
+                margin-bottom: 85px;
+            }
+            .start {
+                margin-bottom: 100px;
+            }
+            .row-1 {
+                padding-top: 60px;
+            }
+        }
+        
+        @media (max-width:620px) {
+            .faq {
+                .answer__text p {
+                    width: 400px;
+                }
+                .faq__block {
+                    .question {
+                        padding: 0;
+                    }
+                    p {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        
+        @media (max-width:600px) {
+            .consulting {
+                .text {
+                    max-width: 400px;
+                    text-align: left;
+                }
+            }
+        }
+        
+        @media (max-width:590px) {
+            .header__buttons {
+                display: none;
+            }
+            .header {
+                #burger-menu {
+                    display: block;
+                    // float: right;
+                }
+            }
+            .plans__price {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .consulting {
+                .text {
+                    max-width: 350px;
+                }
+            }
+        }
+        
+        @media (max-width:535px) {
+            .faq {
+                .answer__text p {
+                    width: 300px;
+                }
+            }
+            .row-1 {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                align-items: center;
+            }
+        }
+        
+        @media (max-width:523px) {
+            .title {
+                .title__title {
+                    font-size: 40px;
+                }
+                .title__subtitle {
+                    font-size: 18px;
+                }
+            }
+            .start {
+                .start-text {
+                    .start-text__title {
+                        font-size: 30px;
+                    }
+                    .start-text__subtitle {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .consulting {
+                .consulting__title {
+                    font-size: 40px;
+                }
+                .text {
+                    max-width: 300px;
+                }
+                .consulting__button {
+                    width: 300px;
+                }
+            }
+            .footer-media {
+                .row-1 {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+                .row-2 {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+                .support {
+                    padding-top: 20px;
+                }
+            }
+            .row-3 {
+                border: none;
+                .left {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: flex-start;
+                }
+            }
+            .footer-media .row-3 .left p+p {
+                margin-left: 0px;
+            }
+        }
+        
+        @media (max-width:435px) {
+            .plans {
+                padding: 0 30px;
+            }
+            .consulting {
+                // padding: 30px;
+                .text {
+                    max-width: 250px;
+                    font-size: 18px;
+                }
+                .consulting__title {
+                    font-size: 30px;
+                }
+                .consulting__button {
+                    width: 250px;
+                    padding: 18px 18px;
+                }
+            }
+            .faq {
+                .faq__title {
+                    font-size: 30px;
+                }
+                .faq__block {
+                    p {
+                        font-size: 18px;
+                        text-align: left;
+                    }
+                    .question {
+                        padding: 0;
+                        max-width: 345px;
+                    }
+                }
+                .answer__text p {
+                    width: 280px;
+                }
+            }
+            .row-3 .left {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .footer-media {
+                .container {
+                    padding: 0 30px;
+                }
+            }
+        }
+        
+        @media (max-width:376px) {
+            .footer-media .row-1 .social ul {
+                display: none;
+            }
+            .social-mobile {
+                display: block;
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+            .consulting {
+                .text {
+                    max-width: 230px;
+                    font-size: 18px;
+                }
+            }
+        }
