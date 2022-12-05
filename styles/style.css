@@ -437,12 +437,12 @@ legend {
 
 @font-face {
   font-family: 'Graphik LCG Regular';
-  src: url(../fonts/graphik/GraphikLCG-Regular.woff);
+  src: url(../fonts/GraphikLCG-Regular.woff);
 }
 
 @font-face {
   font-family: 'Graphik LCG Bold';
-  src: url(../fonts/graphik/GraphikLCG-Bold.woff);
+  src: url(../fonts/GraphikLCG-Bold.woff);
 }
 
 .title .title__subtitle, .consulting .consulting__subtitle > *, .row-1 .footer_col-1 h3 {
